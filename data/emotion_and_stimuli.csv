@@ -1,0 +1,16 @@
+This is a stand-in for a slice of the NAPS Basic Emotion dataset, it should be
+replaced by a proper CSV formatted file without a header. See example below.
+
+Expected format is a CSV without a header. The implied header is
+ImageName(string), Label(string),
+Happiness(double), Sadness(double), Fear(double), Surprise(double),
+Anger(double), Disgust(double),
+Valance(double), Arousal(double)
+
+Assumed delimiter is a semicolon (;).
+
+The source data was provided by the Nencki Institute in Poland
+(http://en.nencki.gov.pl/).
+
+Example with dummy values (proper CSV starting after this line):
+Animals_003_h;snake;1.0;2.0;3.0;4.0;5.0;6.0;7.0;8.0

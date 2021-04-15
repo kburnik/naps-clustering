@@ -1,0 +1,16 @@
+This is a stand-in for a slice of the NAPS stimuli dataset, it should be
+replaced by a proper CSV formatted file without a header. See example below.
+
+The used slice was the NAPS ALL (male and female scores), with the image label,
+valance and arousal values.
+
+Expected format is a CSV without a header. The implied header is
+Label(string), Valance(double), Arousal(double)
+
+Assumed delimiter is comma (,).
+
+The source data was provided by the Nencki Institute in Poland
+(http://en.nencki.gov.pl/).
+
+Example with dummy values (proper CSV starting after this line):
+"snake",1.234,4.321
